@@ -19,10 +19,12 @@ public class Main {
 
         return min;
 		}
-    public static void printMax( double numbers) {
+    public static void printMax( double... numbers) {
         if (numbers.length == 0) {
             System.out.println("No argument passed");
             return;
+        }
+
         double result = numbers[0];
 
         for (int i = 1; i <  numbers.length; i++)
@@ -30,6 +32,7 @@ public class Main {
                 result = numbers[i];
         System.out.println("The max value is " + result);
     }
+
 
         static void myMethod() {
             System.out.println("I just got executed!");
