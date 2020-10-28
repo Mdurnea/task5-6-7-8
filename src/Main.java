@@ -45,5 +45,11 @@ public class Main {
         System.out.println("Lowest number is: " + minFunction(87,65));
         System.out.println("making some changes in this Branch2");
 
+        System.out.println("Commit 1 for Branch3");
+
+        System.out.println("Commit 2 for Branch3");
+
+        System.out.println("Commit 3 for Branch3");
+
     }
 }
